@@ -5,10 +5,10 @@ header("Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE");
 date_default_timezone_set('Asia/Seoul');
 
 $conn = mysqli_connect(
-     '13.124.189.186',
-     'root',
-     'bok2019',
-     'kiminohanawa',
+    'PATH',
+    'ID',
+    'PASSWORD',
+    'DB',
      3306
 );
 
